@@ -1,0 +1,14 @@
+# Ignorar archivos de caché
+node_modules/
+.cache/
+
+# Ignorar archivos temporales
+*.swp
+*~
+
+# Ignorar archivos de configuración específicos
+.vscode/
+# Ignorar archivos de compilación
+dist/
+#ignorar logs
+*.log
