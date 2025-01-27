@@ -13,7 +13,7 @@ import { ServerApp } from './presentation/server-app';
 (async()=>{
 
 // bloque de codigo autoejecutado
-console.log("funcion autoejecutada");
+// console.log("funcion autoejecutada");
 
 await main();
 

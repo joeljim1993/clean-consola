@@ -19,13 +19,10 @@ Tabla del ${base}
 
 \n====================\n`;
 
-for( let i = 1; i <= limit; i++){
-    outputMessage += `${base} x ${i} = ${Number(base) * i}\n`;
-}
 
 outputMessage = headerMessage + outputMessage;
 if(yarg.s){
-    
+
 console.log(outputMessage);
 
 }
